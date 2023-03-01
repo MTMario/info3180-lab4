@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 from app.models import UserProfile
 from app.forms import LoginForm
 from werkzeug.security import check_password_hash
-from app.views import UploadForm
+from app.forms import UploadForm
 
 
 ###
